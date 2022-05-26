@@ -7,7 +7,7 @@
  *
  * @author User
  */
-public class PartTimeStudent {
+public class PartTimeStudent extends Student {
     private int numOfCourses;
 
     /**
