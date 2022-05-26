@@ -16,7 +16,7 @@ public class Student {
     private String progName;
 
     public Student(){}
-    public Student(String studentName) {
+    public Student(String studentName, String progName) {
         this.studentName = studentName;
     }
     
