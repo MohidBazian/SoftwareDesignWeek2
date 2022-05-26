@@ -37,6 +37,9 @@ public class StudentList {
             System.out.println("Enter Student name: ");
             String name=sc.nextLine();
             
+             System.out.println("Enter program name: ");
+            String programName=sc.nextLine();
+            
             Student s=new Student(name);
             studList[i]=s;
             
