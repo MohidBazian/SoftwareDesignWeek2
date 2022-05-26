@@ -40,7 +40,7 @@ public class StudentList {
              System.out.println("Enter program name: ");
             String programName=sc.nextLine();
             
-            Student s=new Student(name);
+            Student s=new Student(name, programName);
             studList[i]=s;
             
         }
